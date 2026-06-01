@@ -1,0 +1,11 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="avoGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#92eab1" />
+      <stop offset="100%" stop-color="#2abf91" />
+    </linearGradient>
+  </defs>
+  <path d="M60 16c24 0 36 22 36 44s-14 44-36 44-36-22-36-44 12-44 36-44z" fill="url(#avoGrad)"/>
+  <circle cx="60" cy="72" r="18" fill="#3c1f0b"/>
+  <circle cx="60" cy="72" r="10" fill="#7e4a29"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#2c0735"/>
+  <path d="M160 176c0-40 32-72 72-72h96c40 0 72 32 72 72v96c0 40-32 72-72 72h-96c-40 0-72-32-72-72v-96z" fill="#f9f1ff" opacity="0.18"/>
+  <path d="M256 112c43 0 78 35 78 78s-35 78-78 78-78-35-78-78 35-78 78-78z" fill="#ff65b5"/>
+  <path d="M264 192h88v30H264z" fill="#fff" opacity="0.85"/>
+  <path d="M136 320c26-48 76-80 134-80s108 32 134 80H136z" fill="#6cf1c8"/>
+  <text x="50%" y="92%" text-anchor="middle" fill="#fff" font-family="Segoe UI, sans-serif" font-size="72" font-weight="700">S</text>
+</svg>
