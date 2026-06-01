@@ -5,7 +5,7 @@ import { getItemForLevel, getTimeForLevel, makeChoices } from './gameData'
 import type { GameItem } from './types'
 
 const STORAGE_KEY = 'call-me-sharmaine-best-level'
-const BGM_SRC = '/assets/sharmaine-bgm.mp3'
+const BGM_SRC = `${import.meta.env.BASE_URL}assets/sharmaine-bgm.mp3`
 const TIME_TIERS = [
   { label: 'Level 1-5', time: 5, tone: 'lime' },
   { label: 'Level 6-10', time: 4, tone: 'green' },

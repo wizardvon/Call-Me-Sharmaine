@@ -1,21 +1,23 @@
 import type { GameItem } from './types'
 
+const assetPath = (path: string) => `${import.meta.env.BASE_URL}${path}`
+
 const SHARMAINE_VARIANTS = [
-  '/assets/characters/Sharmaine01.png',
-  '/assets/characters/Sharmaine02.png',
-  '/assets/characters/Sharmaine03.png',
+  assetPath('assets/characters/Sharmaine01.png'),
+  assetPath('assets/characters/Sharmaine02.png'),
+  assetPath('assets/characters/Sharmaine03.png'),
 ]
 const VANESSA_VARIANTS = [
-  '/assets/characters/Vanessa01.png',
-  '/assets/characters/Vanessa02.png',
-  '/assets/characters/Vanessa03.png',
+  assetPath('assets/characters/Vanessa01.png'),
+  assetPath('assets/characters/Vanessa02.png'),
+  assetPath('assets/characters/Vanessa03.png'),
 ]
 const MELANI_VARIANTS = [
-  '/assets/characters/Melani01.png',
-  '/assets/characters/Melani02.png',
-  '/assets/characters/Melani03.png',
+  assetPath('assets/characters/Melani01.png'),
+  assetPath('assets/characters/Melani02.png'),
+  assetPath('assets/characters/Melani03.png'),
 ]
-const BALIMBING_VARIANTS = ['/assets/characters/Balimbing.png']
+const BALIMBING_VARIANTS = [assetPath('assets/characters/Balimbing.png')]
 
 export const BALIMBING_ITEM: GameItem = {
   id: 'balimbing',
